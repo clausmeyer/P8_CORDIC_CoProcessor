@@ -1,0 +1,403 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/almsk/Documents/CORDIC/simulation/modelsim
+Ebit_shift
+Z1 w1615887026
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 dC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/simulation/modelsim
+Z8 8C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/bit_shift.vhd
+Z9 FC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/bit_shift.vhd
+l0
+L6
+Vm6Rb_az2^jRT=USJI:@Nk2
+!s100 DZKdH2[cmTj@nJ:3d=b6J3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1616057349
+!i10b 1
+Z12 !s108 1616057349.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/bit_shift.vhd|
+Z14 !s107 C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/bit_shift.vhd|
+!i113 1
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 bit_shift 0 22 m6Rb_az2^jRT=USJI:@Nk2
+l21
+L19
+V_`Db:h[]VCC_P0gV2KY^n0
+!s100 >fia2HJ]W002NKd=_MPW52
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ebit_shift_16
+Z17 w1615459948
+R2
+R3
+R4
+R5
+R6
+R0
+Z18 8C:/Users/almsk/Documents/CORDIC/bit_shift_16.vhd
+Z19 FC:/Users/almsk/Documents/CORDIC/bit_shift_16.vhd
+l0
+L6
+V6jYXZIBL74LUj2]bo5WRh1
+!s100 ib=lU=M2BFPlz3Qni4VKY3
+R10
+32
+Z20 !s110 1615466973
+!i10b 1
+Z21 !s108 1615466973.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/CORDIC/bit_shift_16.vhd|
+Z23 !s107 C:/Users/almsk/Documents/CORDIC/bit_shift_16.vhd|
+!i113 1
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 bit_shift_16 0 22 6jYXZIBL74LUj2]bo5WRh1
+l16
+L14
+VS3jJmbTS0lAcMLng1Y6RC1
+!s100 Q6]lz40bEio743bciSB;K1
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R15
+R16
+Ecordic
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z24 8C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic.vhd
+Z25 FC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic.vhd
+l0
+L6
+V;<;f_<<WDAm0M412h9Wmh0
+!s100 AX0C]a?Wg`I6Fm`99PiRb0
+R10
+32
+R11
+!i10b 1
+R12
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic.vhd|
+Z27 !s107 C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic.vhd|
+!i113 1
+R15
+R16
+Abehave
+R2
+R3
+R4
+R5
+R6
+DEx4 work 6 cordic 0 22 ;<;f_<<WDAm0M412h9Wmh0
+l99
+L16
+V?GUX5BSN_5^U6gF@E[<iV1
+!s100 a=Y;iGieaMA`=iHLOBYho2
+R10
+32
+R11
+!i10b 1
+R12
+R26
+R27
+!i113 1
+R15
+R16
+Ecordic_tb
+Z28 w1616057343
+R2
+R3
+R4
+R5
+R6
+R7
+Z29 8C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic_tb.vhd
+Z30 FC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic_tb.vhd
+l0
+L9
+VSP1UGzLdIn3RS]H6SFW3A1
+!s100 KVSV?CcmjKbZOokzA0`V03
+R10
+32
+R11
+!i10b 1
+R12
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic_tb.vhd|
+Z32 !s107 C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic_tb.vhd|
+!i113 1
+R15
+R16
+Abehave
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 cordic_tb 0 22 SP1UGzLdIn3RS]H6SFW3A1
+l142
+L24
+V@11=Dc@Jg=EC^3T4HIiEV2
+!s100 VMfI^jfD;IXLBB>UY5GeI2
+R10
+32
+R11
+!i10b 1
+R12
+R31
+R32
+!i113 1
+R15
+R16
+Efull_adder
+R1
+R2
+R5
+R6
+R7
+Z33 8C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/full_adder.vhd
+Z34 FC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/full_adder.vhd
+l0
+L8
+VZGQdFLUFelMdO>B6lkURA3
+!s100 eVUoY2RCeZ1h>>mK^8E;51
+R10
+32
+R11
+!i10b 1
+R12
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/full_adder.vhd|
+Z36 !s107 C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/full_adder.vhd|
+!i113 1
+R15
+R16
+Artl
+R2
+R5
+R6
+DEx4 work 10 full_adder 0 22 ZGQdFLUFelMdO>B6lkURA3
+l28
+L22
+VPih<iXVmHSdd@TLI2g<mU2
+!s100 HEzQn8zdzHP^j2k1o=]<:3
+R10
+32
+R11
+!i10b 1
+R12
+R35
+R36
+!i113 1
+R15
+R16
+Eiteration_counter
+R1
+R2
+R5
+R6
+R7
+Z37 8C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/iteration_counter.vhd
+Z38 FC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/iteration_counter.vhd
+l0
+L8
+V_bc`bZn2N^SF`:fnVUGUP2
+!s100 ?cRkebZDIGZa^e26Li:0n0
+R10
+32
+R11
+!i10b 1
+R12
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/iteration_counter.vhd|
+Z40 !s107 C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/iteration_counter.vhd|
+!i113 1
+R15
+R16
+Artl
+R2
+R5
+R6
+DEx4 work 17 iteration_counter 0 22 _bc`bZn2N^SF`:fnVUGUP2
+l27
+L26
+VR1hDX7778NiGS;1z`RTRj1
+!s100 `=Q@SX6=^AKWGZ8K7Gfm:3
+R10
+32
+R11
+!i10b 1
+R12
+R39
+R40
+!i113 1
+R15
+R16
+Elut_16
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z41 8C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/LUT_16.vhd
+Z42 FC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/LUT_16.vhd
+l0
+L8
+VU?ciVbMz@P0OCRO9?:X>I1
+!s100 FUP_OEgDGYR3A7D:=E`Wc2
+R10
+32
+R11
+!i10b 1
+R12
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/LUT_16.vhd|
+Z44 !s107 C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/LUT_16.vhd|
+!i113 1
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 6 lut_16 0 22 U?ciVbMz@P0OCRO9?:X>I1
+l52
+L16
+V5?mi32O_UQi5P3F2X7Ma72
+!s100 I448^eIjA6zQWoL]H3AmI0
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 1
+R15
+R16
+Esign_inverter
+Z45 w1615984261
+R2
+R3
+R4
+R5
+R6
+R7
+Z46 8C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/sign_inverter.vhd
+Z47 FC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/sign_inverter.vhd
+l0
+L6
+VgZJnm0_k]NNLdM?fhjAn91
+!s100 `jT7W2iKScK]_Uz@^f>b20
+R10
+32
+R11
+!i10b 1
+R12
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/sign_inverter.vhd|
+Z49 !s107 C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/sign_inverter.vhd|
+!i113 1
+R15
+R16
+Artl
+R2
+R3
+R4
+R5
+R6
+Z50 DEx4 work 13 sign_inverter 0 22 gZJnm0_k]NNLdM?fhjAn91
+l20
+L18
+Z51 VkPG0DP0:68a?3c82S[JeE2
+Z52 !s100 dQ4gi7R2D3>cUX3Tc6]k^1
+R10
+32
+R11
+!i10b 1
+R12
+R48
+R49
+!i113 1
+R15
+R16
+Esigned_adder
+R1
+R2
+R5
+R6
+R7
+Z53 8C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/signed_adder.vhd
+Z54 FC:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/signed_adder.vhd
+l0
+L8
+V<R=l61dzB``9Mj<KMF<EH1
+!s100 lHmT@nQVWn@Xage:>`@:>2
+R10
+32
+R11
+!i10b 1
+R12
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/signed_adder.vhd|
+Z56 !s107 C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/signed_adder.vhd|
+!i113 1
+R15
+R16
+Artl
+R2
+R5
+R6
+DEx4 work 12 signed_adder 0 22 <R=l61dzB``9Mj<KMF<EH1
+l24
+L23
+V3APUQ=INHV7h^?><i9Z[P2
+!s100 AQDQHXOJZfgX^Cl_;eZi[1
+R10
+32
+R11
+!i10b 1
+R12
+R55
+R56
+!i113 1
+R15
+R16

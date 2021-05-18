@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/sign_inverter.vhd}
+vcom -93 -work work {C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/LUT_16.vhd}
+vcom -93 -work work {C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/cordic.vhd}
+vcom -93 -work work {C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/bit_shift.vhd}
+vcom -93 -work work {C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/signed_adder.vhd}
+

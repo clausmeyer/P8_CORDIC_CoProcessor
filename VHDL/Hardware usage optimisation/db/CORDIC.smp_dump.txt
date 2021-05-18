@@ -1,0 +1,10 @@
+
+State Machine - |cordic_area|state
+Name state.done state.idle state.K5 state.K4 state.K3 state.K2 state.K1 
+state.K1 0 0 0 0 0 0 0 
+state.K2 0 0 0 0 0 1 1 
+state.K3 0 0 0 0 1 0 1 
+state.K4 0 0 0 1 0 0 1 
+state.K5 0 0 1 0 0 0 1 
+state.idle 0 1 0 0 0 0 1 
+state.done 1 0 0 0 0 0 1 

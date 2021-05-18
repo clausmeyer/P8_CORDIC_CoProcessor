@@ -1,0 +1,256 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do CORDIC_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/sign_inverter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:20 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/sign_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_inverter
+# -- Compiling architecture rtl of sign_inverter
+# End time: 13:58:20 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/LUT_16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:21 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/LUT_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LUT_16
+# -- Compiling architecture rtl of LUT_16
+# End time: 13:58:21 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/bit_shift.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:21 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/bit_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_shift
+# -- Compiling architecture rtl of bit_shift
+# End time: 13:58:21 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/signed_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:21 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/signed_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signed_adder
+# -- Compiling architecture rtl of signed_adder
+# End time: 13:58:21 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/iteration_counter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:21 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/iteration_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity iteration_counter
+# -- Compiling architecture rtl of iteration_counter
+# End time: 13:58:21 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/Clock_Divider.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:21 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/Clock_Divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Clock_Divider
+# -- Compiling architecture bhv of Clock_Divider
+# End time: 13:58:21 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/LUT_X.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:21 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/LUT_X.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LUT_X
+# -- Compiling architecture rtl of LUT_X
+# End time: 13:58:21 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/LUT_Y.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:21 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/LUT_Y.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LUT_Y
+# -- Compiling architecture rtl of LUT_Y
+# End time: 13:58:22 on May 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/Debounce.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:22 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/Debounce.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Debounce
+# -- Compiling architecture Behavioral of Debounce
+# End time: 13:58:22 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/CORDIC_time.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:58:22 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/almsk/Documents/Git/P8-CoProcessor/FPGA_implementations/Time/CORDIC_time.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CORDIC_time
+# -- Compiling architecture behave of CORDIC_time
+# End time: 13:58:22 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.cordic_time
+# vsim work.cordic_time 
+# Start time: 13:58:36 on May 03,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cordic_time(behave)
+# Loading work.clock_divider(bhv)
+# Loading work.bit_shift(rtl)
+# Loading work.sign_inverter(rtl)
+# Loading work.lut_16(rtl)
+# Loading work.lut_x(rtl)
+# Loading work.lut_y(rtl)
+# Loading work.signed_adder(rtl)
+# Loading work.iteration_counter(rtl)
+# Loading work.debounce(behavioral)
+do Tb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: almsk  Hostname: DESKTOP-A35P8VH  ProcessID: 2640
+#           Attempting to use alternate WLF file "./wlftqahyk8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqahyk8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cordic_time
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_z
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_z
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_y
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_y
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_x
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_x
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /cordic_time/sign_inverter_INST_z
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /cordic_time/sign_inverter_INST_z
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /cordic_time/sign_inverter_INST_y
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /cordic_time/sign_inverter_INST_y
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /cordic_time/sign_inverter_INST_x
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /cordic_time/sign_inverter_INST_x
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_y
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_y
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_x
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ps  Iteration: 3  Instance: /cordic_time/sign_inverter_INST_x
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cordic_time/i_enable_cordic 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/cordic_time/i_enable_cordic 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 14:05:04 on May 03,2021, Elapsed time: 0:06:28
+# Errors: 0, Warnings: 19

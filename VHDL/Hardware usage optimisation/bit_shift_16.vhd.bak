@@ -1,0 +1,28 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use ieee.numeric_std.all;  
+
+entity bit_shift_16 is
+	Port (  input  	: IN  signed(15 downto 0):= "00000000";
+			  output 	: OUT signed(15 downto 0);
+			  n 			: IN  STD_LOGIC_VECTOR(3 downto 0) := "0000" -- 2^4 = 16, så man har mulighed for at bifshifte up til 16 gange
+			);
+	
+end bit_shift_16;
+
+architecture rtl of bit_shift_16 is
+  signal result : signed(15 downto 0);
+begin
+	
+	process is
+	begin
+	
+	result <= shift_right(input,to_integer(unsigned(n)));
+	
+	end process;
+	
+	output <= result;
+
+
+end rtl;

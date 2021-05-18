@@ -1,0 +1,6 @@
+
+State Machine - |CORDIC_time|state
+Name state.done state.idle state.run 
+state.run 0 0 0 
+state.idle 0 1 1 
+state.done 1 0 1 

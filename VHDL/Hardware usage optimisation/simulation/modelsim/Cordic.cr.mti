@@ -1,0 +1,147 @@
+C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity cordic_tb
+-- Compiling architecture behave of cordic_tb
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/signed_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/signed_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity signed_adder
+-- Compiling architecture rtl of signed_adder
+
+} {} {}} C:/Users/almsk/Documents/CORDIC/cordic_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/CORDIC/cordic_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity cordic_tb
+-- Compiling architecture behave of cordic_tb
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/full_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/full_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity full_adder
+-- Compiling architecture rtl of full_adder
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/LUT_16.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/LUT_16.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity LUT_16
+-- Compiling architecture rtl of LUT_16
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/bit_shift.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/bit_shift.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity bit_shift
+-- Compiling architecture rtl of bit_shift
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/cordic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity cordic
+-- Compiling architecture behave of cordic
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/iteration_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/iteration_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity iteration_counter
+-- Compiling architecture rtl of iteration_counter
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/cordic_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/cordic_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity cordic_tb
+-- Compiling architecture behave of cordic_tb
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/signed_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/signed_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity signed_adder
+-- Compiling architecture rtl of signed_adder
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/LUT_16.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/LUT_16.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity LUT_16
+-- Compiling architecture rtl of LUT_16
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/bit_shift.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/bit_shift.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity bit_shift
+-- Compiling architecture rtl of bit_shift
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/cordic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/VHDL/CORDIC_2s_16_bit/cordic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity cordic
+-- Compiling architecture behave of cordic
+
+} {} {}} C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/sign_inverter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/almsk/Documents/GitHub/P8-CoProcessor/CORDIC_2s_16_bit_v2/sign_inverter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_inverter
+-- Compiling architecture rtl of sign_inverter
+
+} {} {}}
