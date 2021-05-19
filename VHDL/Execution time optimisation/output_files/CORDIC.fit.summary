@@ -1,11 +1,11 @@
-Fitter Status : Successful - Tue May 18 11:07:17 2021
-Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Fitter Status : Successful - Wed May 19 12:43:26 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : CORDIC
 Top-level Entity Name : CORDIC_time
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 434 / 114,480 ( < 1 % )
+Total logic elements : 435 / 114,480 ( < 1 % )
     Total combinational functions : 419 / 114,480 ( < 1 % )
     Dedicated logic registers : 165 / 114,480 ( < 1 % )
 Total registers : 165

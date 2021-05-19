@@ -1,45 +1,45 @@
 ------------------------------------------------------------
-TimeQuest Timing Analyzer Summary
+Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk_in'
-Slack : -4.153
-TNS   : -69.085
+Slack : -4.056
+TNS   : -68.292
 
 Type  : Slow 1200mV 85C Model Setup 'Clock_Divider:clock_divider_x|tmp'
-Slack : -3.919
-TNS   : -489.190
+Slack : -3.836
+TNS   : -438.538
 
 Type  : Slow 1200mV 85C Model Setup 'i_mem_enable'
-Slack : -1.736
-TNS   : -20.730
+Slack : -1.223
+TNS   : -15.423
 
 Type  : Slow 1200mV 85C Model Setup 'i_mem_enable_Y'
-Slack : -0.577
-TNS   : -1.151
+Slack : -0.645
+TNS   : -1.211
 
 Type  : Slow 1200mV 85C Model Setup 'i_mem_enable_X'
-Slack : -0.348
-TNS   : -0.656
+Slack : -0.317
+TNS   : -0.596
 
 Type  : Slow 1200mV 85C Model Hold 'Clock_Divider:clock_divider_x|tmp'
-Slack : 0.403
+Slack : 0.367
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk_in'
-Slack : 0.574
+Slack : 0.436
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'i_mem_enable_X'
-Slack : 0.653
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'i_mem_enable_Y'
-Slack : 0.910
+Slack : 0.671
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'i_mem_enable'
-Slack : 1.328
+Slack : 0.754
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'i_mem_enable_Y'
+Slack : 0.949
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_in'
@@ -63,43 +63,43 @@ Slack : -1.285
 TNS   : -2.570
 
 Type  : Slow 1200mV 0C Model Setup 'clk_in'
-Slack : -3.759
-TNS   : -58.439
+Slack : -3.665
+TNS   : -57.701
 
 Type  : Slow 1200mV 0C Model Setup 'Clock_Divider:clock_divider_x|tmp'
-Slack : -3.497
-TNS   : -431.143
+Slack : -3.436
+TNS   : -385.676
 
 Type  : Slow 1200mV 0C Model Setup 'i_mem_enable'
-Slack : -1.495
-TNS   : -17.586
+Slack : -0.988
+TNS   : -12.329
 
 Type  : Slow 1200mV 0C Model Setup 'i_mem_enable_Y'
-Slack : -0.408
-TNS   : -0.814
+Slack : -0.510
+TNS   : -0.925
 
 Type  : Slow 1200mV 0C Model Setup 'i_mem_enable_X'
-Slack : -0.190
-TNS   : -0.353
+Slack : -0.168
+TNS   : -0.311
 
 Type  : Slow 1200mV 0C Model Hold 'Clock_Divider:clock_divider_x|tmp'
-Slack : 0.353
+Slack : 0.344
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clk_in'
-Slack : 0.526
+Slack : 0.403
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'i_mem_enable_X'
-Slack : 0.583
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'i_mem_enable_Y'
-Slack : 0.826
+Slack : 0.609
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'i_mem_enable'
-Slack : 1.220
+Slack : 0.679
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'i_mem_enable_Y'
+Slack : 0.875
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_in'
@@ -123,48 +123,48 @@ Slack : -1.285
 TNS   : -2.570
 
 Type  : Fast 1200mV 0C Model Setup 'clk_in'
-Slack : -1.614
-TNS   : -17.786
+Slack : -1.580
+TNS   : -17.448
 
 Type  : Fast 1200mV 0C Model Setup 'Clock_Divider:clock_divider_x|tmp'
-Slack : -1.435
-TNS   : -151.113
+Slack : -1.479
+TNS   : -122.981
 
 Type  : Fast 1200mV 0C Model Setup 'i_mem_enable'
-Slack : -0.396
-TNS   : -3.713
+Slack : -0.173
+TNS   : -1.437
 
 Type  : Fast 1200mV 0C Model Setup 'i_mem_enable_Y'
-Slack : 0.161
+Slack : 0.141
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'i_mem_enable_X'
-Slack : 0.290
+Slack : 0.349
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'Clock_Divider:clock_divider_x|tmp'
-Slack : 0.165
+Slack : 0.123
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk_in'
-Slack : 0.259
+Slack : 0.191
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'i_mem_enable_X'
-Slack : 0.309
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'i_mem_enable_Y'
-Slack : 0.435
+Slack : 0.279
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'i_mem_enable'
-Slack : 0.661
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'i_mem_enable_Y'
+Slack : 0.421
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_in'
 Slack : -3.000
-TNS   : -41.218
+TNS   : -41.216
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock_Divider:clock_divider_x|tmp'
 Slack : -1.000
