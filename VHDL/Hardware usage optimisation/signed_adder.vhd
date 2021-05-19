@@ -1,6 +1,5 @@
  -- This VHDL file is implementing the signed adder used in the CORDIC algorithm
 
-
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;

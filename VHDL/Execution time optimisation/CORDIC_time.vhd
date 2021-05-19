@@ -101,7 +101,6 @@ architecture behave of CORDIC_time is
   
 --------Signals for iteration_counter---
   signal clk : std_logic := '0';
-  signal clk_2 : std_logic := '0';
   signal o_iteration_count : integer range 0 to DATA_WIDTH-1 := 0;
   signal i_reset : std_logic := '0';
   signal i_enable : std_logic := '0';
@@ -109,7 +108,6 @@ architecture behave of CORDIC_time is
 
 -------Signals for clock divider---
 --Inputs
---signal clk : std_logic := '0';
 signal reset : std_logic := '0';
  
 --Outputs
@@ -493,15 +491,13 @@ i_LUT_addr_Y <= std_logic_vector(to_unsigned(LUT_COUNTER,ADDR_LENGTH));
 
 
 ------  sign -------
-
 i_SI_control(1) <= '1' when r_yn = var_zero else
 						 '0';
 i_SI_control(0) <= not r_yn(DATA_WIDTH-1);
-
 ------ \ - sign --------
 
------- Simple Multiplier -----
 
+------ Simple Multiplier -----
 i_SI_x  				<= o_bitshift_x;
 i_SI_y  				<= o_bitshift_y;
 i_SI_z  				<= o_LUT;
