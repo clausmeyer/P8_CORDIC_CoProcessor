@@ -5,12 +5,12 @@ clear all
 close all
 
 wl = 24;
-fracl = wl-3;
+fracl = wl-2;
 signed=1;
 N_max_iters = wl-1-8;
 
 % Generate N_MC linearly spaced inputs y/x in the interval [a_angle b_angle]
-a_angle = -86.9; b_angle = 86.9; N_MC = 500;
+a_angle = -86.9; b_angle = 86.9; N_MC = 2000;
 [yvector, xvector, angle] = generate_inputs(a_angle,b_angle,N_MC);
 
 for loops = 1:length(xvector) % Every time this loop is run, new input values are used
