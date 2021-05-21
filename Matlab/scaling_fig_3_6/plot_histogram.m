@@ -5,7 +5,7 @@ function plot_histogram(error,angle,max_error)
 figure(2)
 xline(max_error,'LineWidth',2)
 hold on
-hist(abs(error),20)
+hist(abs(error),10)
 xlabel('Absolute error [rad]','Fontsize',14)
 xlim([0 max_error*1.3])
 legend('Maximum theoretical error','Fontsize',12)

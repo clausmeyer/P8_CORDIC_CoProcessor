@@ -10,7 +10,7 @@ signed=1;
 N_max_iters = wl-1-8;
 
 % Generate N_MC linearly spaced inputs y/x in the interval [a_angle b_angle]
-a_angle = -86.9; b_angle = 86.9; N_MC = 2000;
+a_angle = -86.9; b_angle = 86.9; N_MC = 500;
 [yvector, xvector, angle] = generate_inputs(a_angle,b_angle,N_MC);
 
 for loops = 1:length(xvector) % Every time this loop is run, new input values are used
@@ -21,17 +21,18 @@ for loops = 1:length(xvector) % Every time this loop is run, new input values ar
     
     % Initialise 16 bit values
     small_x = fi(zeros(1,wl-8),signed,wl-8,fracl-8); small_y = fi(zeros(1,wl-8),signed,wl-8,fracl-8); small_LUT = fi(zeros(1,wl-8),signed,wl-8,fracl-8); small_z = fi(zeros(1,wl-8),signed,wl-8,fracl-8);
-    
+    d = fi(0,1,16,14);
     % Scale the input values from 24 bit to 16 bit
     x(1) = fi(xfloat,signed,wl,fracl); y(1) = fi(yfloat,signed,wl,fracl); z(1) = fi(0,signed,wl,fracl);    
     [small_x, small_y] = scale_inputs(x(1),y(1));
-   
+   %small_x = x; small_y = y;
+   %small_x(1) = 0.25; small_y(1) = 0.1;
     for i = 2:wl-8
         % -------------- CORDIC iteration-------------------
         d = -1*sign(small_y(i-1));
         small_x(i) = small_x(i-1)-d*bitshift(small_y(i-1),-i+2);
         small_y(i) = small_y(i-1)+d*bitshift(small_x(i-1),-i+2);
-        small_LUT(i) = atan(2^(-i+2));
+        small_LUT(i) = fi(atan(2^(-i+2)),1,16,14);
         small_z(i) = small_z(i-1)-d*small_LUT(i);
         % -------------- CORDIC iteration-------------------
     end
